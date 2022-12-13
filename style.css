@@ -1,118 +1,121 @@
 #container {
-	display: flex;
-	height: 100vh;
-  }
+  display: flex;
+  height: 100vh;
+}
 
-  .floor {
-	border: 2px dashed black;
-	height: 370px;
-	width: 400px;
-	margin: auto;
-  }
-  .circle {
-	width: 30px;
-	height: 30px;
-	border-radius: 50%;
-	background-color: black;
-  }
+.floor {
+  border: 2px dashed black;
+  height: 370px;
+  width: 400px;
+  margin: auto;
+  position: fixed;
+  right: 292px;
+  top: 150px;
+}
+.circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: black;
+}
 
-  .square {
-	width: 30px;
-	height: 30px;
-	background-color: black;
-  }
+.square {
+  width: 30px;
+  height: 30px;
+  background-color: black;
+}
 
-  .wall1 {
-	width: 198px;
-	height: 20px;
-	background-color: black;
-	position: relative;
-	top: 21px;
-	left: 176px;
-  }
+.wall1 {
+  width: 198px;
+  height: 20px;
+  background-color: black;
+  position: relative;
+  top: 21px;
+  left: 176px;
+}
 
-  .wall2 {
-	width: 20px;
-	height: 135px;
-	background-color: black;
-	position: relative;
-	top: -4px;
-	left: 20px;
-  }
+.wall2 {
+  width: 20px;
+  height: 135px;
+  background-color: black;
+  position: relative;
+  top: -4px;
+  left: 20px;
+}
 
-  .wall3 {
-	width: 199px;
-	height: 20px;
-	background-color: black;
-	position: relative;
-	top: -14px;
-	left: 183px;
-  }
+.wall3 {
+  width: 199px;
+  height: 20px;
+  background-color: black;
+  position: relative;
+  top: -14px;
+  left: 183px;
+}
 
-  .wall4 {
-	width: 20px;
-	height: 96px;
-	background-color: black;
-	position: relative;
-	top: -110px;
-	left: 163px;
-  }
+.wall4 {
+  width: 20px;
+  height: 96px;
+  background-color: black;
+  position: relative;
+  top: -110px;
+  left: 163px;
+}
 
-  .wall5 {
-	width: 20px;
-	height: 96px;
-	background-color: black;
-	position: relative;
-	top: -110px;
-	left: 163px;
-  }
+.wall5 {
+  width: 20px;
+  height: 96px;
+  background-color: black;
+  position: relative;
+  top: -110px;
+  left: 163px;
+}
 
-  .wall6 {
-	width: 20px;
-	height: 96px;
-	background-color: black;
-	position: relative;
-	top: -116px;
-	left: 23px;
-  }
-  .wall7 {
-	width: 20px;
-	height: 96px;
-	background-color: black;
-	position: relative;
-	top: -302px;
-	left: 362px;
-  }
+.wall6 {
+  width: 20px;
+  height: 96px;
+  background-color: black;
+  position: relative;
+  top: -116px;
+  left: 23px;
+}
+.wall7 {
+  width: 20px;
+  height: 96px;
+  background-color: black;
+  position: relative;
+  top: -302px;
+  left: 362px;
+}
 
-  .wall8 {
-	width: 96px;
-	height: 20px;
-	background-color: black;
-	position: relative;
-	top: -232px;
-	left: 288px;
-  }
+.wall8 {
+  width: 96px;
+  height: 20px;
+  background-color: black;
+  position: relative;
+  top: -232px;
+  left: 288px;
+}
 
-  .wall9 {
-	width: 96px;
-	height: 20px;
-	background-color: black;
-	position: relative;
-	top: -252px;
-	left: 43px;
-  }
+.wall9 {
+  width: 96px;
+  height: 20px;
+  background-color: black;
+  position: relative;
+  top: -252px;
+  left: 43px;
+}
 
-  .wall10 {
-	width: 20px;
-	height: 40px;
-	background-color: black;
-	position: relative;
-	top: -312px;
-	left: 364px;
-  }
+.wall10 {
+  width: 20px;
+  height: 40px;
+  background-color: black;
+  position: relative;
+  top: -312px;
+  left: 364px;
+}
 
-  #stage {
-	display: flex;
-	gap: 5px;
-	margin-top: 10px;
-  }
+#stage {
+  display: flex;
+  gap: 5px;
+  margin-top: 10px;
+}
